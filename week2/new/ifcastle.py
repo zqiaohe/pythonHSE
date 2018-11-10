@@ -1,4 +1,5 @@
-a, b, c, d, e = int(input()), int(input()), int(input()), int(input()), int(input())
+a, b, c = int(input()), int(input()), int(input())
+d, e = int(input()), int(input())
 if d * e <= a * b:
     if (d <= a and e <= b) or (d <= b and e <= a):
         print('YES')
