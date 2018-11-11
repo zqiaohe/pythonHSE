@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f641068-1196-4aed-94e1-374f4267bcec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/squares.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mindenum.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,12 +22,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="11" />
+          <entry key="py" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="9" />
+          <entry key="Python" value="12" />
           <entry key="Scratch" value="2" />
         </counts>
       </usages-collector>
@@ -38,16 +37,17 @@
           <entry key="boxes" value="6" />
           <entry key="coincidence" value="3" />
           <entry key="ifcastle" value="111" />
+          <entry key="mindenum" value="12" />
           <entry key="order" value="12" />
-          <entry key="py" value="728" />
-          <entry key="squares" value="6" />
-          <entry key="txt" value="234" />
+          <entry key="py" value="810" />
+          <entry key="squares" value="8" />
+          <entry key="txt" value="241" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="234" />
-          <entry key="Python" value="878" />
+          <entry key="PLAIN_TEXT" value="241" />
+          <entry key="Python" value="974" />
         </counts>
       </usages-collector>
     </session>
@@ -55,10 +55,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/squares.py">
+        <entry file="file://$PROJECT_DIR$/mindenum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            <state relative-caret-position="102">
+              <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -83,6 +83,7 @@
         <option value="$PROJECT_DIR$/ifcastle.py" />
         <option value="$PROJECT_DIR$/boxes.py" />
         <option value="$PROJECT_DIR$/squares.py" />
+        <option value="$PROJECT_DIR$/mindenum.py" />
       </list>
     </option>
   </component>
@@ -123,7 +124,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.squares">
+  <component name="RunManager" selected="Python.mindenum">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="new" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -202,19 +203,16 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="order" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="mindenum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="new" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="E:\python\Anaconda3\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/order.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mindenum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -242,19 +240,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.order" />
       <item itemvalue="Python.coincidence" />
       <item itemvalue="Python.ifcastle" />
       <item itemvalue="Python.boxes" />
       <item itemvalue="Python.squares" />
+      <item itemvalue="Python.mindenum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mindenum" />
         <item itemvalue="Python.squares" />
         <item itemvalue="Python.boxes" />
         <item itemvalue="Python.ifcastle" />
         <item itemvalue="Python.coincidence" />
-        <item itemvalue="Python.order" />
       </list>
     </recent_temporary>
   </component>
@@ -325,13 +323,20 @@
       <option name="project" value="LOCAL" />
       <updated>1541920863888</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="&quot;squares&quot; first version">
+      <created>1541944030800</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1541944030800</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="676" y="0" width="697" height="735" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.06980273" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32776934" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -343,8 +348,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.26100153" side_tool="true" visible="true" weight="0.30224526" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="10" sideWeight="0.7389985" visible="true" weight="0.30224526" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.26403642" side_tool="true" visible="true" weight="0.30224526" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="10" sideWeight="0.7359636" visible="true" weight="0.30224526" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2496112" />
@@ -362,7 +367,8 @@
     <MESSAGE value="castle if with correct signs" />
     <MESSAGE value="castle if with correct cycle" />
     <MESSAGE value="&quot;boxes&quot; first version" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;boxes&quot; first version" />
+    <MESSAGE value="&quot;squares&quot; first version" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;squares&quot; first version" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
@@ -399,8 +405,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/squares.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        <state relative-caret-position="102">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mindenum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
         </state>
       </provider>
     </entry>
