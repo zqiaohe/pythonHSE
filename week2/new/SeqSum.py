@@ -1,6 +1,6 @@
 now = int(input())
-SumSeq = 0
+SumSeq = now
 while now != 0:
     now = int(input())
     SumSeq += now
-print(now)
+print(SumSeq)
