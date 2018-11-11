@@ -1,6 +1,7 @@
 now = int(input())
-SumSeq = now
+evel = 0
 while now != 0:
+    if now % 2 == 0:
+        evel += 1
     now = int(input())
-    SumSeq += now
-print(SumSeq)
+print(evel)
