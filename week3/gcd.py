@@ -10,4 +10,4 @@ def gcd(a, b):
 a = int(input())
 b = int(input())
 nod = gcd(a, b)
-print(a / nod, b / nod)
+print(int(a / nod), int(b / nod))
