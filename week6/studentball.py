@@ -11,7 +11,7 @@ for line in range(n):
     student.Fam = k[0]
     student.Ball = int(k[1])
     slist.append(student)
-slist.sort(key=lambda x: x.Ball, reverse=True)
+slist.sort(key=lambda x: x.Ball)
 
 for i in slist:
-    print(i.Fam, i.Ball)
+    print(i.Fam)
