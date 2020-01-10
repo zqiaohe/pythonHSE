@@ -1,0 +1,54 @@
+class Student:
+    F = ""
+    I = ""
+    Ball1 = 0
+    Ball2 = 0
+    Ball3 = 0
+    Summa = 0
+
+    def Print(self):
+        print(self.F, self.I, self.Ball1, self.Ball2, self.Ball3)
+
+
+inFile = open('input.txt', 'r', encoding='utf8')
+outFile = open('output.txt', 'w', encoding='utf8')
+lines = inFile.readlines()
+slist = []
+n = int(lines[0])
+# print(n)
+# print(lines[1])
+lin = lines[1].split(' ')
+# print(lin)
+int(lin[len(lin) - 3])
+minball = int(lin[len(lin) - 1]) + int(lin[len(lin) - 2]) + int(lin[len(lin) - 3])
+# print(minball)
+for line in lines:
+    line = line.replace("\uFEFF", "")
+    line = line.replace("\n", "")
+    k = line.split(' ')
+    if len(k) < 2:
+        continue
+    student = Student()
+    student.Ball1 = int(k[len(k) - 1])
+    student.Ball2 = int(k[len(k) - 2])
+    student.Ball3 = int(k[len(k) - 3])
+    student.Summa = int(k[len(k) - 1]) + int(k[len(k) - 2]) + int(k[len(k) - 3])
+    # print(student.Summa)
+    if (student.Ball1 >= 40 and student.Ball2 >= 40 and student.Ball3 >= 40):
+        student.Summa = int(k[len(k) - 1]) + int(k[len(k) - 2]) + int(k[len(k) - 3])
+        slist.append(student.Summa)
+
+slist.sort(reverse=True)
+# print(slist)
+if len(slist) <= n:
+    print(0, file=outFile)
+elif (slist[n] == slist[n - 1]):
+    i = n - 1
+    while i > 0:
+        if slist[i - 1] > slist[i]:
+            print(slist[i - 1], file=outFile)
+            break
+        elif (slist[i - 1] == slist[i]):
+            i -= 1
+    if slist[0] == slist[n - 1]:
+        print(1, file=outFile)
